@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="contact_container">
+    <div class="component contact_information">
+        <div class="contact_method contact_phone">
+            <i class="contact_icon fa-solid fa-phone"></i>
+            <div class="text_topic contact_text"> Phone </div>
+            <div class="contact_text">(+46)72-5484385</div>
+        </div>
+        <div class="contact_method contact_email">
+            <i class="contact_icon fa-solid fa-envelope"></i>
+            <div class="text_topic contact_text"> Email </div>
+            <div class="contact_text">emileriksson432@gmail.com</div>
+        </div> 
+    </div>
+
+    <div class="component contact_form">
+        <div class="input_text">
+            <div class="text_heading">
+                Send me a message
+            </div>
+            <div class="text_body">
+                Feel free to send me a message if you have any offers or openings which might suit me, or if you
+                have anything else to discuss. If you'd prefer, you can also reach me by phone or email.
+            </div>
+        </div>
+        <div class="input_box">
+            <input id="sender_name" type="text" placeholder="Enter your name...">
+        </div>
+        <div class="input_box">
+            <input id="sender_email" type="text" placeholder="Enter your email...">
+        </div>
+        <div class="input_box">
+            <textarea id="sender_text"></textarea>
+        </div>
+        <div class="send_button">
+            <input type="button" value="Send now">
+        </div>
+    </div> 
+</div>
+
+
+{% endblock %}

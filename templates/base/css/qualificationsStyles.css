@@ -1,0 +1,95 @@
+.section_title{
+    color: var(--linkhover);
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.qualifications_page{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.education_section{
+    background-color: lightgrey;
+    border-radius: 12px;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 0px 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.job_section{
+    background-color: lightgrey;
+    border-radius: 12px;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.education_section > *{
+    width: 50%;
+}
+
+.course_listings{
+    display: flex;
+    flex-direction: column;
+}
+
+.course_listings > *{
+    width: 70%;
+    margin: 8px 0px;
+}
+
+.education_section *{
+    background-color: inherit;
+}
+
+.job_section *{
+    background-color: inherit;
+}
+
+
+
+.courses h1{
+    font-weight: 700;
+}
+
+.courses > *{
+    margin: 5px 0px;
+}
+
+.bar_container {
+    width: 80%; /* Full width */
+    height: 12px;
+    background-color: grey; /* Grey background */
+    border-radius: 5px;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+.computer_science{
+    width: 63%;
+    background-color: blue;
+    border-radius: 5px;
+    height: 12px;
+}
+
+.mathematics{
+    width: 25%;
+    background-color: blue;
+    border-radius: 5px;
+    height: 12px;
+}
+
+.physics{
+    width: 12%;
+    background-color: blue;
+    border-radius: 5px;
+    height: 12px;
+}
+

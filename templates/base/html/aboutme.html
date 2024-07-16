@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="about_me_page">
+    <div class="img_box">
+        <img class="profile_img" src="{% static 'profile_picture.jpg' %}">
+    </div>
+    <div class="overlay_box_1">
+        <div class="about_me_text">
+            <h1> About me </h1>  
+
+            <p> Hi! My name is Emil Eriksson and I'm a second-year Computer Science student at Karlstad University,
+                studying for my bachelor's degree.
+                I expect to graduate in January 2026. Alongside my Computer Science degree, I'm taking additional courses
+                in mathematics, which may lead to a second bachelors-degree in the future.
+            </p>
+        </div>
+    </div>
+    <div class="overlay_box_2">
+        <div class="looking_for_text">
+            <h1> What I'm looking for </h1>  
+
+            <p>I'm currently seeking a company to collaborate with for my bachelor's thesis,
+                which I will be working on during the fall of 2025.
+                Additionally, I'm eager to explore full-time employment opportunities starting from January 2026.
+            </p>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

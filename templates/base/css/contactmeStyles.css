@@ -1,0 +1,104 @@
+.contact_container{
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    width: 70%;
+    margin-top: 40px; /* 40px below navbar*/
+    margin-bottom: 40px;
+    box-shadow: 0px 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    border-radius: 12px;
+}
+
+.contact_container .component{
+    background-color: inherit;
+    margin: 20px;
+}
+
+.contact_information{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    width: 25%;
+
+}
+
+.contact_form{
+    display: flex;
+    flex-direction: column;
+    align-content: left;
+    width: 75%;
+}
+
+.contact_form > div{
+    margin: 6px 15px;
+}
+
+.contact_form div{
+    background-color: inherit;
+}
+
+.contact_method{
+    background-color: inherit;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.contact_method .text_topic{
+    font-weight: 900;
+}
+
+.contact_icon{
+    background-color: inherit;
+    font-size: 30px;
+    color: var(--linkhover);
+    text-align: center;
+}
+
+.contact_text{
+    background-color: inherit;
+    text-align: center;
+}
+
+.input_text{
+    display: flex;
+    flex-direction: column;
+}
+
+.input_text div{
+    margin: 3px 0px;
+}
+
+.input_text .text_heading{
+    color: var(--linkhover);
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.input_box input{
+    width: 50%;
+    border: none;
+    border-radius: 6px;
+}
+
+.input_box textarea{
+    border: none;
+    border-radius: 6px;
+    min-height: 250px;
+    width: 100%;
+    resize: none;
+}
+
+.send_button input[type="button"]{
+    background: var(--linkhover);
+    font-size: 18px;
+    border: none;
+    border-radius: 6px;
+}
+
+.send_button input[type="button"]:hover{
+    background: rgb(102, 102, 255);
+}

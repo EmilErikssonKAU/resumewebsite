@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="project_page">
+    <div class="heading"> A few projects...</div>
+    <div class = project_container>
+        <div class="description left_desc">
+             <div class="title">Resume website</div>
+            <div class="body">This website. Created with Django and vanilla html/css/javascript. Hosted on
+                my own Apache server.
+            </div> 
+        </div> 
+        <div class="project project_1">
+            <i class="icon fa-solid fa-globe"></i>
+            <div class="website_adress">emil-eriksson.se</div>
+        </div>
+    </div>
+    <div class = project_container>
+        <div class="project project_2">
+            <i class="icon fa-solid fa-chess-knight"></i>
+            <div class="website_adress">...</div>
+        </div>
+        <div class="description right_desc">
+            <div class="title">Coming soon</div>
+           <div class="body">...</div> 
+       </div> 
+    </div>
+    <div class = project_container>
+        <div class="description left_desc">
+            <div class="title">Coming soon</div>
+           <div class="body">...</div> 
+       </div> 
+        <div class="project project_3">
+            <i class="icon fa-solid fa-message"></i>
+            <div class="website_adress">...</div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

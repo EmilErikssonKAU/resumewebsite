@@ -1,0 +1,57 @@
+.about_me_page{
+    display: flex;
+    flex-direction: column;
+}
+
+.imgbox {
+    display: grid;
+    height: 100%;
+}
+.profile_img{
+    max-width: 100%;
+    margin: auto;
+}
+
+.overlay_box_1{
+    position: absolute;
+    width: 35%;
+    top: 40%;
+    left: 3%;
+    border: 3px;
+    border-style: double;
+    z-index: 1;
+}
+
+.about_me_text{
+    margin: 15px;
+}
+
+.about_me_text h1{
+    font-size: 18px;
+    font-weight: 1000;
+    color: var(--linkhover);
+    margin: 5px 0px;
+}
+
+.looking_for_text{
+    margin: 15px;
+}
+
+.looking_for_text h1{
+    font-size: 18px;
+    font-weight: 1000;
+    color: var(--linkhover);
+    margin: 5px 0px;
+}
+
+.overlay_box_2{
+    position: absolute;
+    width: 33%;
+    top: 70%;
+    left: 10%;
+    border: 3px;
+    border-style: double;
+    z-index: 1;
+}
+
+
