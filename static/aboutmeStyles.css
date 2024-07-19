@@ -1,7 +1,6 @@
 .about_me_page{
     display: flex;
     flex-direction: column;
-    background-color: black;
 }
 
 .imgbox {
@@ -11,7 +10,6 @@
 .profile_img{
     max-width: 100%;
     margin: auto;
-    padding: 0px;
 }
 
 .overlay_box_1{
